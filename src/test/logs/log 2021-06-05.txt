@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:34:37.757823600Z</date>
+  <millis>1622896477757</millis>
+  <nanos>823600</nanos>
+  <sequence>1</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>INFO</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logInfo</method>
+  <thread>23</thread>
+  <message>MATCHING OUTPUT - EXPECTED : Car{reg='DN09HRM', make='BMW', model='320D Se', color='Black', yearMake=2009}
+ REAL OUTPUT : Car{reg='DN09HRM', make='BMW', model='320D Se', color='Black', yearMake=2009}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:34:43.543543100Z</date>
+  <millis>1622896483543</millis>
+  <nanos>543100</nanos>
+  <sequence>3</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>WARNING</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logWarning</method>
+  <thread>23</thread>
+  <message>Bad request given, register of : BW57BOW</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:34:54.369186300Z</date>
+  <millis>1622896494369</millis>
+  <nanos>186300</nanos>
+  <sequence>5</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>INFO</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logInfo</method>
+  <thread>23</thread>
+  <message>MATCHING OUTPUT - EXPECTED : Car{reg='KT17DLX', make='Skoda', model='Superb Sportline Tdi S-A', color='White', yearMake=2017}
+ REAL OUTPUT : Car{reg='KT17DLX', make='Skoda', model='Superb Sportline Tdi S-A', color='White', yearMake=2017}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:35:06.415282700Z</date>
+  <millis>1622896506415</millis>
+  <nanos>282700</nanos>
+  <sequence>7</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>INFO</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logInfo</method>
+  <thread>23</thread>
+  <message>MATCHING OUTPUT - EXPECTED : Car{reg='SG18HTN', make='Volkswagen', model='Golf Se Navigation Tsi Evo', color='White', yearMake=2018}
+ REAL OUTPUT : Car{reg='SG18HTN', make='Volkswagen', model='Golf Se Navigation Tsi Evo', color='White', yearMake=2018}</message>
+</record>
+</log>
