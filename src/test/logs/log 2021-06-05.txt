@@ -132,3 +132,70 @@
  REAL OUTPUT : Car{reg='SG18HTN', make='Volkswagen', model='Golf Se Navigation Tsi Evo', color='White', yearMake=2018}</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:58:16.759694100Z</date>
+  <millis>1622897896759</millis>
+  <nanos>694100</nanos>
+  <sequence>1</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>INFO</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logInfo</method>
+  <thread>23</thread>
+  <message>MATCHING OUTPUT - EXPECTED : Car{reg='DN09HRM', make='BMW', model='320D Se', color='Black', yearMake=2009}
+ REAL OUTPUT : Car{reg='DN09HRM', make='BMW', model='320D Se', color='Black', yearMake=2009}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:58:22.564689700Z</date>
+  <millis>1622897902564</millis>
+  <nanos>689700</nanos>
+  <sequence>3</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>WARNING</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logWarning</method>
+  <thread>23</thread>
+  <message>Bad request given, register of : BW57BOW</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:58:33.429468800Z</date>
+  <millis>1622897913429</millis>
+  <nanos>468800</nanos>
+  <sequence>5</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>INFO</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logInfo</method>
+  <thread>23</thread>
+  <message>MATCHING OUTPUT - EXPECTED : Car{reg='KT17DLX', make='Skoda', model='Superb Sportline Tdi S-A', color='White', yearMake=2017}
+ REAL OUTPUT : Car{reg='KT17DLX', make='Skoda', model='Superb Sportline Tdi S-A', color='White', yearMake=2017}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-05T12:58:45.421976100Z</date>
+  <millis>1622897925421</millis>
+  <nanos>976100</nanos>
+  <sequence>7</sequence>
+  <logger>helperpackage.CarTaxCheck</logger>
+  <level>INFO</level>
+  <class>helperpackage.CarTaxCheck</class>
+  <method>logInfo</method>
+  <thread>23</thread>
+  <message>MATCHING OUTPUT - EXPECTED : Car{reg='SG18HTN', make='Volkswagen', model='Golf Se Navigation Tsi Evo', color='White', yearMake=2018}
+ REAL OUTPUT : Car{reg='SG18HTN', make='Volkswagen', model='Golf Se Navigation Tsi Evo', color='White', yearMake=2018}</message>
+</record>
+</log>

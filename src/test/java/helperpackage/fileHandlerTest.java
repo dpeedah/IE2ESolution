@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+// tests that the input / output value getters work
 public class fileHandlerTest {
 
     @Test

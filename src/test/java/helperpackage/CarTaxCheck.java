@@ -18,6 +18,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.junit.experimental.categories.Category;
+
+//parametrized, run by Testrunner (the pom runs it during any test runs), repeats tests based on values returned from the input
 @RunWith(Parameterized.class)
 public class CarTaxCheck {
     private String currentReg;
@@ -62,10 +64,10 @@ public class CarTaxCheck {
         driver.get("https://cartaxcheck.co.uk/");
     }
 
-    @Before
+    /*@Before
     public void reset(){
         driver.navigate().to("https://cartaxcheck.co.uk/");
-    }
+    }*/
 
     public Car getOutputCar(String reg) throws IOException {
         List<Car> outputs = TestValueExtractor.getOutputValues();
@@ -91,7 +93,7 @@ public class CarTaxCheck {
         }
     }
 
-
+    // single repeated test using all input values
     @Test
     public void testInputOutput() throws InterruptedException, IOException {
         String regNoSpace = this.currentReg.replace(" ","");
@@ -146,6 +148,7 @@ public class CarTaxCheck {
     }
 
 
+    //returns the list of values used for each repeated test.
     @Parameterized.Parameters
     public static Collection primeNumbers() throws IOException {
         List<String> input_values = TestValueExtractor.getInputValuesBase();
