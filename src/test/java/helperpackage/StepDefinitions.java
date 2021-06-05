@@ -71,5 +71,14 @@ public class StepDefinitions {
         driver.close();
     }
 
+    @And("user is given the vehicle not found message")
+    public void userIsGivenVehicleNotFoundMsg() throws InterruptedException {
+        freePage = new FreeCheckPage(driver);
+        Thread.sleep(500);
+        assertTrue(freePage.badReq());
+        Thread.sleep(500);
+        driver.close();
+    }
+
 
 }
